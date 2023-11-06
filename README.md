@@ -1,5 +1,7 @@
 # Assignment03
-Try two strategies to improve the performance of low-resource NMT model. (All the testing results are stored in assginment/03)
+Try two strategies to improve the performance of low-resource NMT model.
+
+(All the testing results are stored in ./assginment/03)
 
 #### First strategy: 
 
@@ -8,6 +10,8 @@ Tuning Hyper-parameters like batch size, different layers of LSTM model, learnin
 #### Second strategy: 
 
 Implement a lexical model to improve lexical choice.
+
+(Modification for coding in ./seq2seq/models/lstm.py Class LSTMDecoder)
 # Training a model
 
 #### Training a baseline model
