@@ -1,5 +1,5 @@
 # Assignment03
-Try two strategies to improve the performance of low-resource NMT model.
+Try two strategies to improve the performance of low-resource NMT model. (All the testing results are stored in assginment/03)
 
 #### First strategy: 
 
