@@ -55,7 +55,7 @@ python train.py \
     --source-lang en \
     --target-lang sv \
     --save-dir path/to/model/checkpoints \
-    --decoder_use_lexical_model True
+    --decoder-use-lexical-model True
 ```
 
 # Evaluating a trained model
