@@ -74,9 +74,3 @@ Score with SacreBLEU
 ```
 cat path/to/postprocessed/model/translations/file | sacrebleu path/to/raw/target/test/file
 ```
-
-# Assignments
-
-Assignments must be submitted on OLAT by 14:00 on their respective
-due dates.
-
