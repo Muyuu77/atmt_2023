@@ -19,8 +19,8 @@ Implement a lexical model to improve lexical choice.
 ```
 python train.py \
     --data path/to/prepared/data \
-    --source-lang en \
-    --target-lang sv \
+    --source-lang fr \
+    --target-lang en \
     --save-dir path/to/model/checkpoints \
 ```
 #### Tuning a hyper-parameter on the baseline model
@@ -30,8 +30,8 @@ Change the batch size:
 ```
 python train.py \
     --data path/to/prepared/data \
-    --source-lang en \
-    --target-lang sv \
+    --source-lang fr \
+    --target-lang en \
     --save-dir path/to/model/checkpoints \
     --batch-size 16
 ```
@@ -42,8 +42,8 @@ python train.py \
     --encoder-num-layers 3\
     --decoder-num-layers 3\
     --data path/to/prepared/data \
-    --source-lang en \
-    --target-lang sv \
+    --source-lang fr \
+    --target-lang en \
     --save-dir path/to/model/checkpoints \
 ```
 
@@ -52,8 +52,8 @@ python train.py \
 ```
 python train.py \
     --data path/to/prepared/data \
-    --source-lang en \
-    --target-lang sv \
+    --source-lang fr \
+    --target-lang en \
     --save-dir path/to/model/checkpoints \
     --decoder-use-lexical-model True
 ```
