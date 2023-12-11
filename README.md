@@ -1,3 +1,22 @@
+# Assignment05
+
+#### section 3 UID-decoding
+Modification in translate_beam.py and ./seq2seq/beam.py with an addtional eval_p function, change the score where each token adds to BeamSearchNode class.
+
+Change paths to your own data files
+```
+python /content/drive/MyDrive/ATML/translate_beam.py \
+    --data /content/drive/MyDrive/ATML/data/en-fr \
+    --batch-size 16\
+    --beam-size 5\
+    --dicts /content/drive/MyDrive/ATML/data/en-fr \
+    --checkpoint-path /content/drive/MyDrive/ATML/Assignment03/checkpoints_lexical/checkpoint_best.pt \
+    --output /content/drive/MyDrive/ATML/Assignment05/model_translations_diverse_2.txt \
+    --cuda True\
+    --regulation True
+```
+
+
 # Assignment03
 Try two strategies to improve the performance of low-resource NMT model.
 
