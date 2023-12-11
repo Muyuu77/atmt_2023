@@ -16,6 +16,27 @@ python /content/drive/MyDrive/ATML/translate_beam.py \
     --regulation True
 ```
 
+#### section 4 Investigating the Diversity of Beam Search
+Modification in translate_beam.py and ./seq2seq/beam.py, change the score add to the search.nodes.queue
+
+Change paths to your own data files
+```
+python /content/drive/MyDrive/ATML/translate_beam.py \
+    --data /content/drive/MyDrive/ATML/data/en-fr \
+    --batch-size 16\
+    --beam-size 5\
+    --dicts /content/drive/MyDrive/ATML/data/en-fr \
+    --checkpoint-path /content/drive/MyDrive/ATML/Assignment03/checkpoints_lexical/checkpoint_best.pt \
+    --output /content/drive/MyDrive/ATML/Assignment05/model_translations_diverse_2.txt \
+    --cuda True\
+    --diversity True\
+    --n-best 3\
+    --lamda 2
+```
+
+(Some testing results are stored in ./assginment/05)
+
+
 
 # Assignment03
 Try two strategies to improve the performance of low-resource NMT model.
